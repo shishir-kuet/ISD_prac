@@ -8,6 +8,6 @@ public class Calculator {
 
     public double divide(double a, double b) {
         if (b == 0) throw new IllegalArgumentException("Division by zero not allowed");
-        return a / b;
+        return a / b + 1;
     }
 }
